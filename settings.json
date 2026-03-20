@@ -1,0 +1,232 @@
+{
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+	"editor.folding": false,
+	"editor.insertSpaces": true,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": false,
+	"editor.suggestSelection": "first",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"symbols.hidesExplorerArrows": false,
+	"workbench.iconTheme": "symbols",
+	"editor.fontSize": 18,
+
+	// Wrapping
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+
+	// Rename tags
+	"editor.linkedEditing": true,
+
+	// Auto closing tags
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	// Определяет, должен ли редактор отображать управляющие символы.
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	"editor.quickSuggestionsDelay": 0,
+	"html.completion.attributeDefaultValue": "singlequotes",
+
+	// Appearance
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "visible",
+	"workbench.productIconTheme": "fluent-icons",
+	"window.density.editorTabHeight": "compact",
+	"workbench.activityBar.location": "top",
+	"editor.accessibilitySupport": "off",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+
+	// Cursor
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+
+	// Debug
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	// Emmet
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact",
+	},
+	"emmet.triggerExpansionOnTab": true,
+
+	// Format / ESLint only
+	"editor.formatOnSave": false,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+
+	// ESLint
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"vue",
+		"html",
+	],
+	"eslint.format.enable": true,
+	"eslint.run": "onType",
+	"eslint.codeActionsOnSave.mode": "all",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.organizeImports": "never",
+	},
+
+	// Отключаем встроенные форматтеры JS/TS/HTML, чтобы не было конфликтов
+	"javascript.format.enable": false,
+	"typescript.format.enable": false,
+	"html.format.enable": false,
+
+	// Для Vue / JS / TS / HTML
+	"[vue]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	},
+	"[html]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma",
+	},
+
+	// "files.associations": { "*.scss": "postcss", "*.module.scss": "postcss" },
+	"editor.inlineSuggest.enabled": true,
+
+	// Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// JS & TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+
+	// Spell checker
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": [
+		"blade",
+		"jsx",
+		"tsx",
+		"ts",
+		"js",
+		"scss",
+		"sass",
+		"vue",
+	],
+
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"Т": true,
+		"б": true,
+		"е": true,
+	},
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true,
+
+	"files.exclude": {
+		"**/.expo": true,
+		"**/.expo-shared": true,
+		"**/.idea": true,
+		"**/.next": true,
+		"**/.nuxt": true,
+		"**/dist": false,
+	},
+
+	// OTHER
+	"files.defaultLanguage": "plaintext",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"git.openRepositoryInParentFolders": "never",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"workbench.editor.empty.hint": "hidden",
+	"prisma.showPrismaDataPlatformNotification": false,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"workbench.colorTheme": "Default Dark+",
+	"haskell.manageHLS": "GHCup",
+	"editor.snippets.codeActions.enabled": false,
+
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe",
+			],
+			"args": [],
+			"icon": "terminal-cmd",
+		},
+		"Git Bash": {
+			"source": "Git Bash",
+			"icon": "terminal-git-bash",
+		},
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
+
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"javascript": false,
+		"javascriptreact": false,
+		"vue": true,
+		"python": false,
+		"html": false,
+		"typescript": false,
+		"haskell": false,
+	},
+
+	"notebook.codeActionsOnSave": {},
+}
